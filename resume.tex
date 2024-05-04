@@ -18,6 +18,8 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{changepage}
+\usepackage{ragged2e}
 \input{glyphtounicode}
 
 
@@ -105,12 +107,6 @@
 
 \begin{document}
 
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
   \textbf{\Huge \scshape Yeyang (Justin) Sun} \\ \vspace{1pt}
   \small \href{mailto:sunjustin969@gmail.com}{\underline{sunjustin969@gmail.com}} $|$
@@ -122,7 +118,11 @@
 
 %-----------Introduction-----------
 \section{Introduction}
-I am a university student with a profound passion for programming. I self-taught full-stack development from high school, gaining substantial experience in designing and implementing efficient, scalable, and maintainable software systems. I actively contribute to the open-source community, enhancing my skills and supporting collaborative software development. I have a keen interest in researching and exploring cutting-edge technologies. I am eager to contribute my technical skills to a dynamic team, where I can further develop my programming expertise and contribute to impactful projects.
+\justifying
+\begin{adjustwidth}{8pt}{8pt}
+  I am a university student with a profound passion for programming. I self-taught full-stack development from high school, gaining substantial experience in designing and implementing efficient, scalable, and maintainable software systems. I actively contribute to the open-source community, enhancing my skills and supporting collaborative software development. I have a keen interest in researching and exploring cutting-edge technologies. I am eager to contribute my technical skills to a dynamic team, where I can further develop my programming expertise and contribute to impactful projects.
+\end{adjustwidth}
+\raggedright
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -141,9 +141,9 @@ I am a university student with a profound passion for programming. I self-taught
 {Open Source Officer}{Mar. 2024 -- Present}
 {University of Adelaide Computer Science Club}{Adelaide, Australia}
 \resumeItemListStart
-\resumeItem{aaa}
-\resumeItem{bbb}
-\resumeItem{ccc}
+\resumeItem{Manage and contribute to open-source projects}
+\resumeItem{Promote open-source culture within the club}
+\resumeItem{Plan workshops and events related to open-source}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -242,8 +242,11 @@ I am a university student with a profound passion for programming. I self-taught
 
 %-----------Appreciation-----------
 \section{Appreciation}
-
-Thank you for reviewing my resume. I am enthusiastic about the prospect of working with your team and contributing to your company's goals.
+\justifying
+\begin{adjustwidth}{8pt}{8pt}
+  Thank you for reviewing my resume. I am enthusiastic about the prospect of working with your team and contributing to your company's goals.
+\end{adjustwidth}
+\raggedright
 
 %-------------------------------------------
 \end{document}
